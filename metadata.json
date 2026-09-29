@@ -1,0 +1,7 @@
+{
+  "name": "Plant: Focus & Study",
+  "description": "Real-time botanical focus timer, habit tracker, and task manager with dynamic Firestore synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
