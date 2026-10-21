@@ -77,7 +77,7 @@ fun PlantApp(viewModel: PlantViewModel) {
     val unlockedAchievementPopup by viewModel.unlockedAchievementPopup.collectAsState()
 
     if (isAuthLoading) {
-        // Splash / Auth loading screen while Firebase checks session
+        // Splash / Auth loading screen while checking the session
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -92,14 +92,15 @@ fun PlantApp(viewModel: PlantViewModel) {
                 Spacer(modifier = Modifier.height(16.dp))
                 Row {
                     Text(
-                        text = "Plant:",
+                        text = "Nivora",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.Bold,
                             color = PlantText
                         )
                     )
+                    Spacer(modifier = Modifier.width(4.dp))
                     Text(
-                        text = "Focus & Study",
+                        text = "For Focus",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.Bold,
                             color = PlantPrimary
