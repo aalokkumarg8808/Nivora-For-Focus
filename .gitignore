@@ -16,3 +16,12 @@
 local.properties
 .env
 debug.keystore
+
+# Local secrets and signing credentials
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+google-services.json
