@@ -1,6 +1,6 @@
 {
-  "name": "Plant: Focus & Study",
-  "description": "Real-time botanical focus timer, habit tracker, and task manager with dynamic Firestore synchronization.",
+  "name": "Nivora For Focus",
+  "description": "A productivity app with a focus timer, habit tracker, and task manager.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
