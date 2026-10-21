@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Nivora For Focus
+#  Nivora For Focus
 
 ### Focus with intention. Build habits that last.
 
@@ -21,14 +21,14 @@ A calm, plant-inspired Android productivity app to help you plan your day, focus
 
 ---
 
-## ✨ About Nivora
+##  About Nivora
 
 Nivora For Focus is an Android productivity app built around a simple idea: make it easier to show up consistently. Organize tasks, build habits, plan goals, and run focus sessions in one place—wrapped in a clean, botanical-inspired interface.
 
 > [!NOTE]
 > This repository contains the Android app source code. Features that depend on external configuration, such as Supabase cloud sync, require your own project credentials before they can work.
 
-## 🌱 Features
+##  Features
 
 <details open>
 <summary><strong>Focus & productivity</strong></summary>
@@ -61,7 +61,7 @@ Nivora For Focus is an Android productivity app built around a simple idea: make
 Cloud sync behavior depends on correct Supabase configuration and policy setup. Review the code and test with your own project before relying on it for important data.
 </details>
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Area | Technology |
 |---|---|
@@ -158,7 +158,7 @@ Use a private upload keystore and supply its path and passwords through local en
 
 </details>
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```text
 Plant-Focus-Study/
