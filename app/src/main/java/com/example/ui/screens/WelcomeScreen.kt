@@ -50,21 +50,22 @@ fun WelcomeScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                // Top Title: Plant:Focus & Study
+                // Top Title: Nivora For Focus
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.Center
                 ) {
                     Text(
-                        text = "Plant:",
+                        text = "Nivora",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.Black,
                             fontSize = 22.sp,
                             color = PlantText
                         )
                     )
+                    Spacer(modifier = Modifier.width(4.dp))
                     Text(
-                        text = "Focus & Study",
+                        text = "For Focus",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.Black,
                             fontSize = 22.sp,
